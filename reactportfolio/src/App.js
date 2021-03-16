@@ -1,11 +1,11 @@
 import './App.css';
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Portfolio from './Portfolio';
-import Home from '/Home'; 
-import Contact from './Contact';
-import NotFound from './NotFound';
+import Portfolio from './components/Portfolio';
+import Home from './components/Home'; 
+import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
@@ -14,13 +14,13 @@ function App() {
       <Navbar />
       <div className="content">
        <Switch>
-         <Route exact path= "/">
+       <Route exact path={["/", "/home"]} component = {Home}>
           <Home />
          </Route>
-         <Route exact path="/portfolio">
+         <Route exact path="/portfolio" component = {Portfolio}>
           <Portfolio />
          </Route>
-         <Route exact path="/contact">
+         <Route exact path="/contact" component = {Contact}>
           <Contact />
          </Route>
          <Route path="*">
@@ -30,7 +30,6 @@ function App() {
         <Footer />      
     </div>
     </div>
-
     </Router>
   );
 }
