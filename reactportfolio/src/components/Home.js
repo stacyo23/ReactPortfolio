@@ -5,7 +5,11 @@ import "./styles.css"
 const styles = {
     BioImage: {
         height: 500, 
-        width: 500
+        width: 500,
+        marginRight: 1500
+    },
+    card: {
+        width: 700
     }
 }
 
@@ -24,14 +28,7 @@ const Home = () => {
                     <p> Hey there, I'm Stacy! I'm a fullstack developer leveraging a background in quality 
                       assurance and process improvement with a passion for problem-solving. Please feel free to contact me via email: stacyo23@yahoo.com</p>  
              </div>
-             <div className="row">
-              <div className="col-md-6">
-              <button id ="btn1" className ="button bg-primary"><i className="fab fa-github"></i></button>
-              </div>
-              <div className="col-md-6">
-              <button id="btn2" className ="button bg-primary"><i className="fab fa-linkedin"></i></button>
-              </div>
-            </div>
+             
            
         </div>
          </div>
