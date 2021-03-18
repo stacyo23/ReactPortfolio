@@ -12,114 +12,392 @@ import BA from "../assets/BA.jpg"
 
 const Portfolio = () => {
   return (
+    <section id="work" className="portfolio-mf sect-pt4 route">
     <div className="container">
-      <div className="row h-100 align-items-center justify-content-center text-center">
-        <div className="h2 px-3 mt-4 about">
-          Portfolio
-          <div
-            id="carouselExampleIndicators"
-            className="carousel slide align-self-center"
-            data-ride="carousel"
-          >
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img
-                  className="d-block w-50"
-                  src={Scheduler}
-                  alt="workday scheduler"
-                ></img>
-                <a href="https://github.com/stacyo23/WorkDayScheduler">
-                    <button type="button">Deployed Application</button>
-                </a>
-
-                <a href="https://stacyo23.github.io/WorkDayScheduler/">
-                    <button type="button">Github Repository</button>
-                </a>
-
+      <div className="row">
+        <div className="col-sm-12">
+          <div className="title-box text-center">
+            <h2 className="title-a text-info">Portfolio</h2>
+            <div className="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href={FB} data-lightbox="gallery-vmarine">
+              <div className="work-img">
+                <img src={FB} alt="FoodieBook" className="img-fluid" />
               </div>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">FoodieBook</h2>
+                    <button href=" ">Deployed Application</button> <button href=" ">Github Repository</button>
 
-              <div className="carousel-item">
-              <img
-                  className="d-block w-50"
-                  src={PassGen}
-                  alt="password generator"
-                ></img>
-                <a href="https://github.com/stacyo23/PasswordGenerator">
-                    <button type="button">Deployed Application</button>
-                </a>
-
-                <a href="https://stacyo23.github.io/PasswordGenerator/	">
-                    <button type="button">Github Repository</button>
-                </a>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        Node Express Handlebars MySQL   
+                      </span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <div className="carousel-item">
-              <img
-                  className="d-block w-50"
-                  src={GitFit}
-                  alt="calorie counting app"
-                ></img>
-                <a href="https://github.com/LKglass-SMU/GitFit">
-                    <button type="button">Deployed Application</button>
-                </a>
-
-                <a href="https://lkglass-smu.github.io/GitFit/">
-                    <button type="button">Github Repository</button>
-                </a>
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-vmarine"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-vmarine"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={GitFit}
+              data-lightbox="gallery-vmarine"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={Scheduler}
+              data-lightbox="gallery-vmarine"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={PassGen}
+              data-lightbox="gallery-vmarine"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href={FB} data-lightbox="gallery-aguadeluz">
+              <div className="work-img">
+                <img src={FB} alt="" className="img-fluid" />
               </div>
-
-              <div className="carousel-item">
-              <img
-                  className="d-block w-50"
-                  src={EDB}
-                  alt="eat the burger"
-                ></img>
-                <a href=" https://mysterious-citadel-90085.herokuapp.com/">
-                
-                    <button type="button">Deployed Application</button>
-                </a>
-
-                <a href="https://github.com/stacyo23/Eat-Da-Burger">
-                    <button type="button">Github Repository</button>
-                </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Lorem Ipsum</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        HTML5 CSS3 Bootstrap Webpack SmoothScrolling
+                        VanillaJS
+                      </span>{" "}
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-              <div className="carousel-item">
-              <img
-                  className="d-block w-50"
-                  src={FB}
-                  alt="FoodieBook"
-                ></img>
-                <a href="https://morning-peak-44853.herokuapp.com/">
-                    <button type="button">Deployed Application</button>
-                </a>
-
-                <a href="https://github.com/stacyo23/Foodie-Book">
-                    <button type="button">Github Repository</button>
-                </a>
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-aguadeluz"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-aguadeluz"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-aguadeluz"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={GitFit}
+              data-lightbox="gallery-aguadeluz"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={PassGen}
+              data-lightbox="gallery-aguadeluz"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href={FB} data-lightbox="gallery-todo">
+              <div className="work-img">
+                <img src={FB} alt="" className="img-fluid" />
               </div>
-
-              <div className="carousel-item">
-              <img
-                  className="d-block w-50"
-                  src={BA}
-                  alt="Budget Anywhere"
-                ></img>
-                <a href="https://rocky-ridge-69487.herokuapp.com/">
-                    <button type="button">Deployed Application</button>
-                </a>
-
-                <a href="https://github.com/stacyo23/BudgetAnywhere">
-                    <button type="button">Github Repository</button>
-                </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Lorem Ipsum</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        HTML5 CSS3 Bootstrap Webpack ReactJS
+                      </span>
+                      {/*} / <span className="w-date">18 Sep. 2018</span>*/}
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
               </div>
-
-            </div>
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-todo"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={GitFit}
+              data-lightbox="gallery-todo"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={Scheduler}
+              data-lightbox="gallery-todo"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={PassGen}
+              data-lightbox="gallery-todo"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={BA}
+              data-lightbox="gallery-todo"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href={FB} data-lightbox="gallery-medlingos">
+              <div className="work-img">
+                <img src={FB} alt="" className="img-fluid" />
+              </div>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Lorem Ipsum</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        Bootstrap ReactJS GoogleAPI
+                      </span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-medlingos"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={GitFit}
+              data-lightbox="gallery-medlingos"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={Scheduler}
+              data-lightbox="gallery-medlingos"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={PassGen}
+              data-lightbox="gallery-medlingos"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={BA}
+              data-lightbox="gallery-medlingos"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href={FB} data-lightbox="gallery-smth">
+              <div className="work-img">
+                <img src={FB} alt="" className="img-fluid" />
+              </div>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Lorem Ipsum</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">MERN</span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-smth"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={GitFit}
+              data-lightbox="gallery-smth"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={Scheduler}
+              data-lightbox="gallery-smth"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={PassGen}
+              data-lightbox="gallery-smth"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={BA}
+              data-lightbox="gallery-smth"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="work-box">
+            <a href={FB} data-lightbox="gallery-mf">
+              <div className="work-img">
+                <img src={FB} alt="" className="img-fluid" />
+              </div>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Lorem Ipsum</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        HTML5 CSS3 Bootstrap MERN
+                      </span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a
+              href={EDB}
+              data-lightbox="gallery-mf"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={GitFit}
+              data-lightbox="gallery-mf"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={Scheduler}
+              data-lightbox="gallery-mf"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={PassGen}
+              data-lightbox="gallery-mf"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
+            <a
+              href={BA}
+              data-lightbox="gallery-mf"
+              style={{ display: "none" }}
+            >
+              jsx-a11y/anchor-has-content warning
+            </a>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  </section>
+);
+}
+
+ 
+
 
 export default Portfolio;

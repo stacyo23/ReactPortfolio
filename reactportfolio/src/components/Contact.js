@@ -1,6 +1,14 @@
+const styles ={
+    card: {
+        marginRight: 500,
+        marginLeft: 500, 
+        fontSize: "large"
+    }
+}
+
 const Contact = () => {
     return ( 
-        <div className="card text-white bg-info mb-3">
+        <div className="card text-white bg-info mb-3" style= {styles.card} >
       <div className="card-header contact">Contact</div>
       <div className="card-body">
         <form>

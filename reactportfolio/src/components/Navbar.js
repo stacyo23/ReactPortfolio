@@ -1,17 +1,28 @@
 import { Link } from 'react-router-dom'; 
 import Resume from "../assets/StacyBettsResume.pdf"
-import styles from "./styles.css"; 
 
+
+const styles ={
+     
+    link: {
+    marginRight: 5,
+    fontSize: "large"
+    },
+    brand: {
+        color: "white",
+        fontFamily: "Pacifico"
+    }
+}
 
 const Navbar = () => {
     return ( 
-           <navbar className="navbar">
-               <h1 href= "/"> Stacy Betts </h1>
+           <navbar className="navbar" >
+               <h1 href= "/" style={styles.brand}> Stacy Betts </h1>
                <div className="links">
-                   <Link to="/" style = {styles.link} >Home</Link>
-                   <Link to="/Portfolio">Portfolio</Link>
-                   <Link to="/Contact">Contact</Link>
-                   <a href= {Resume}download>Resume</a>
+                   <Link to="/" className="text-info" style = {styles.link} >Home</Link>
+                   <Link to="/Portfolio" className="text-info" style = {styles.link}>Portfolio</Link>
+                   <Link to="/Contact" className="text-info" style = {styles.link}>Contact</Link>
+                   <a href= {Resume}download className="text-info" style = {styles.link}>Resume</a>
                </div>
            </navbar>
      );
